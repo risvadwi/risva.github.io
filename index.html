@@ -3,41 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Risva</title>
+    <title>Tugas Pemrograman Web - Risva Dwiyanti</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #f4f7f6;
             color: #333;
-            text-align: center;
-            padding: 50px 20px;
+            margin: 0;
+            padding: 40px 20px;
         }
-        .card {
-            background: white;
-            max-width: 500px;
+        .container {
+            max-width: 650px;
             margin: 0 auto;
-            padding: 30px;
+            background: #ffffff;
+            padding: 35px;
             border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
         }
-        h1 { color: #2c3e50; }
-        p { line-height: 1.6; color: #666; }
-        .btn {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
+        h1 {
+            color: #1a365d;
+            font-size: 24px;
+            margin-bottom: 8px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 12px;
+        }
+        .subtitle {
+            color: #4a5568;
+            font-size: 16px;
+            margin-top: 0;
+            margin-bottom: 24px;
+        }
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 24px;
+        }
+        .info-table td {
+            padding: 10px 0;
+            vertical-align: top;
+        }
+        .info-table td.label {
+            font-weight: bold;
+            width: 30%;
+            color: #2d3748;
+        }
+        .description {
+            background-color: #f8fafc;
+            border-left: 4px solid #3182ce;
+            padding: 15px;
+            border-radius: 4px;
+            color: #4a5568;
+            line-height: 1.6;
+        }
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 13px;
+            color: #a0aec0;
         }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>Halo, Gua Risva! 👋</h1>
-        <p>Selamat datang di website portofolio pertama gua yang di-host langsung via GitHub Pages.</p>
-        <a href="https://github.com/risvadwi" class="btn">Kunjungi Profile GitHub Gua</a>
+
+    <div class="container">
+        <h1>Tugas Pemrograman Web</h1>
+        <p class="subtitle">Praktikum Membuat Repository & Web Hosting GitHub Pages</p>
+
+        <table class="info-table">
+            <tr>
+                <td class="label">Nama Mahasiswi</td>
+                <td>: Risva Dwiyanti</td>
+            </tr>
+            <tr>
+                <td class="label">Mata Kuliah</td>
+                <td>: Pemrograman Berbasis Web</td>
+            </tr>
+            <tr>
+                <td class="label">Status Deployment</td>
+                <td>: <span style="color: #38a169; font-weight: bold;">Active (GitHub Pages)</span></td>
+            </tr>
+        </table>
+
+        <div class="description">
+            <strong>Deskripsi Tugas:</strong><br>
+            Halaman web ini dibuat sebagai bentuk pemenuhan tugas praktikum pembuatan repositori Git, pengelolaan versi kode, dan publikasi situs statis menggunakan fitur GitHub Pages.
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Risva Dwiyanti. All rights reserved.
+        </div>
     </div>
+
 </body>
 </html>
